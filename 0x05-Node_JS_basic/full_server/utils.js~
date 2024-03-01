@@ -1,4 +1,4 @@
-const {readFile} = requie("fs");
+const {readFile} = requie('fs');
 
 module.exports = function readDatabase(filePath) {
     const students = {};
